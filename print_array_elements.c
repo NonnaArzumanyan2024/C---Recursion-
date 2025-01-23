@@ -6,6 +6,7 @@ void print_array_elements(int arr[], int size, int index) {
     } else {
         printf("%d ", arr[index]); 
         print_array_elements(arr, size, index + 1);
+        //If we switch the places where the function is called and printed, it will print the array elements in the reverse order.
     }
 }
 
