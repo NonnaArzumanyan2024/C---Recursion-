@@ -5,7 +5,9 @@ void print_in_base(int num, int base) {
         return;  
     } else {
         print_in_base(num / base, base); 
-        printf("%d", num % base);  
+        printf("%d", num % base); 
+        //if we write the function call after printing, we will get the base representation of the number in reverse order
+        
     }
 }
 
